@@ -1,0 +1,169 @@
+*{
+	margin:0;
+}
+body {
+ width:100%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin-bottom:20px;
+}
+
+/*
+.heading{
+	/*uporer boro ahsanullah lekha tar jonno
+	
+	font-size:20px;
+	padding-top:100px;
+	background-color:black;
+	width:100%;
+	text-align:center;
+	color:white;
+	position:fixed;
+	
+	padding-top:0;
+}
+
+ul#menubar {
+	
+	margin-top:50px;
+	text-align:center;
+	width:100%;
+	list-style-type: none;
+	height:63px;
+	opacity:.5;
+	overflow:hidden;
+	padding: 0px;
+	position:fixed;
+	margin-bottom:0px;
+	border-bottom: 3px solid red;
+	background-color:black;
+	z-index:99;
+	
+	
+} 
+*/
+nav{
+	position:fixed;
+	width:100%;
+	height:50px;
+	background-color:rgba(0,0,0,0.5);
+	z-index:99;
+}
+.slider{
+	width:100%;
+	
+}
+.slide{
+	background-image:url("a2cutted.jpg");
+}
+.sect{
+	height:50%;
+	background-color:aqua;
+	background-width:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.subSection{
+	height:50%;
+	background-color:bisque;
+	
+}
+.sectOne{
+	
+	background-image:url("a1.jpg");
+}
+.sectTwo{
+	background-image:url("austt.jpg");
+}
+.sectThree{
+	background-image:url("aust1.jpg");
+}
+
+
+li{
+	/*eita thakar karone home about 
+	hen ten pasha pashi ashe 
+	*/
+	width:14.285%;
+	float:left;
+}
+
+
+li a{
+	/*
+	*/
+	background-color:#000000;
+	height:25px;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	color: white;
+	padding: 20px;
+	display: block;
+	
+	
+	
+}
+
+li a:hover{
+	border-bottom: 5px solid white;
+	transition:0.6s;
+	font-weight:bold;
+	font-size:23px;
+	text-shadow: 1px 1px black;
+	border-radius:20px;
+	height:25px;
+	padding-bottom:17px;
+	padding-top:17px;
+	background-color:white;
+	color: #000000;
+}
+
+.hpb{
+	margin-top:0px;
+	height:1500px;
+	padding-top:100px;
+}
+
+.box{
+	margin-top:0px;
+	margin-left: 100px;
+	width :200px;
+	-webkit-transition:all .2s;
+	background color: blue;
+	line-height:200px;
+	text-align:center;
+	font-weight:bold;
+	color:black;
+	border-radius:5px;
+	box-shadow:0px 0px 2px rgba(0,0,0,.5),1px 1px 5px rgba(0,0,0,.3);
+	cursor: pointer;
+	
+}
+.box:hover{
+	background:pink;
+	color:purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
